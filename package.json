@@ -1,12 +1,9 @@
 {
-  "name": "vue-stock-trader",
+  "name": "demat-torpedo",
   "version": "0.1.0",
-  "homepage": "http://nikpydev.github.io/demat-torpedo",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -23,6 +20,7 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "gh-pages": "^3.1.0",
